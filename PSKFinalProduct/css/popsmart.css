@@ -1,0 +1,990 @@
+/* CSS RESET */
+@import "https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.6.3/flexslider.min.css";
+* {
+	margin:0;
+	padding:0;	
+	}
+
+@font-face {
+	font-family: 'CaviarDreams';
+	src:url('../fonts/caviar_dreams/CaviarDreams_Bold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* GLOBAL CSS FOR ARTICLE (EVERYTHING BETWEEN HEADER AND FOOTER) */
+
+article{
+	color:#888;
+}
+
+article h1{
+	color: #888;
+	text-align:center;
+	padding-top:1em;
+	padding-bottom:.5em;
+}
+
+
+article p {
+	color: #888;
+	font-family: Lucida Sans Unicode;
+	line-height:1.5em;
+	margin: 1em 0;
+	text-align: justify;
+	font-size: 1em;
+}
+
+/* GLOBAL CSS FOR ASIDE BEGIN*/
+
+aside{
+	font-family: Lucida Sans Unicode;
+}
+
+aside h2{
+	color: #888;
+	text-align:center;
+	padding-top:0;
+	margin-top:0;
+	padding-bottom:.5em;
+}
+
+aside h3{
+	padding-top:.5em;
+	text-align: center;
+	color: #888;
+	text-decoration: underline;
+}
+
+.aside_headline{
+	text-decoration: none;
+}
+
+aside p{
+	margin-bottom: 3em;
+	font-size: 1em;
+}
+/* GLOBAL ASIDE CSS END */
+
+/* OTHER GLOBAL CSS */
+
+h1, h2, h3, h4, p{
+	font-family: Lucida Sans Unicode;
+}
+
+html{
+	background-color:#fff;
+}
+
+body{
+	background-color:#fff;
+}
+
+/*ADMIN CSS BEGIN */
+
+.admin {
+	align: center;
+	border-collapse:collapse;
+	margin: auto;
+	border: 2px;
+	width: 75%;
+}
+
+.adminH {
+	margin-left: 45%;
+}
+
+header{
+	background-color:#d2f5f5;
+	}
+
+.spacer{
+	height:60px;
+}
+
+.welcome_home{
+	text-align: center;
+	padding:.5em;
+	color:#888;
+}
+
+/* ADMIN CSS END */
+
+/* START SLIDER CSS */
+
+.flexslider{
+	width:60%;
+	margin:0 auto;
+	margin-top: 25px;
+	margin-bottom: 50px;
+}
+
+.flex-caption {
+	background: tomato;
+	color: white;
+	position: absolute;
+	bottom: 0;
+	padding: 1em;
+}
+/*END SLIDER CSS*/
+
+.headerText h1{
+    font-size: 5em;
+    color:rgb(17,27,118);
+    text-shadow:2px 2px 3px rgba(0,0,0,0.3);
+    text-align:center;
+    font-family:'Gochi Hand', cursive;
+    margin-bottom:4px;
+}
+
+.headerText p{
+    font-size: 1.5em;
+    color:rgb(17,27,118);
+    text-shadow:2px 2px 3px rgba(0,0,0,0.3);
+    text-align:center;
+    font-family:'Gochi Hand', cursive;
+    margin-bottom:4px;
+    padding-top: 95px;
+}
+
+
+/*NAV*/
+nav{
+    font-family:'CaviarDreams';
+	position: fixed;
+	width: 100%;
+	z-index: 5;
+}
+
+/* OWL LOGO */
+.owl img{
+	height:100%;
+}
+
+.logo p{
+	padding-top:5px;
+	font-size: 2em;
+	font-family: 'CaviarDreams';
+	color:rgb(17,27,118);
+}
+
+/* BETA BUTTON */
+.beta_button_desktop{
+	margin-left: 10%;
+	font-size: 1.5em;
+	padding: 0 15px;
+	border-radius: 5px;
+	font-family: 'CaviarDreams';
+}
+
+
+/* 3rd party login buttons*/
+._4z_d {
+	height: 40px;
+	width: 145px;
+}
+
+
+
+/*SAFE ZONE PAGE */
+ul.safe_zone{
+	list-style-type: none;
+}
+
+.onecol h1{
+	font-size: 2em;
+}
+
+ul.safe_zone li img{
+	height:80px;
+	border-radius: 40px;
+	max-width: 200px;
+}
+
+li{
+	margin-left:2.5em;
+	color:#888;
+}
+
+.safe{
+	width: 50%;
+	margin:0 auto;
+	text-align: center;
+}
+
+.safe li, .safe p{
+	list-style-type: none;
+	text-align: center;
+}
+
+.safe p{
+	margin-bottom: 40px;
+}
+
+.safe ul li{
+	margin-left: 0;
+}
+/*
+
+/* CONTACT US PAGE */
+#contact_form{
+    border: .25px solid #ccc;
+    margin-top: 3em;
+    margin-bottom: 1em;
+    border-radius: 5px;
+}
+
+/* Styels for the API & TERMS OF USE BEGIN*/
+ol{
+    margin-left: 30px;
+}
+
+.terms h3{
+    font-weight: bold;
+}
+
+.terms h4{
+    font-size: 1.2em;
+}
+
+.terms h4.output{
+    padding: 10px;
+}
+
+.terms h5{
+    font-style: italic;
+    font-size: 1.1em;
+}
+
+.terms h6{
+    font-size: 1.2em;
+    padding-bottom: 15px;
+}
+
+p.items{
+    text-indent: 3%;
+    margin: 0em;
+}
+
+p.no_style{
+    margin-left: 5%;
+}
+
+li.api{
+    padding: 10px;
+    font-size: 1.1em;
+}
+
+li.code{
+    list-style-type: none;
+    text-indent: 10%;
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter";
+    padding-bottom: 15px;
+}
+/* API/TERMS OF USE END */
+
+
+/* EMBEDDED VIDEO (HOME PAGE) START */
+.embed-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;
+	max-width: 100%;
+}
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+/* EMBEDDED VIDEO END */
+
+/*FOOTER START */
+footer{
+	border-top:1px solid #888;
+	text-align:center;
+	clear:both;
+	background-color:#fff;
+	color:#888;
+	text-transform:uppercase;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;	
+	}
+	
+footer a{
+	color:#888;
+	}
+	
+footer a:hover{
+	color:#00b4f5;
+	text-decoration:none;
+	}
+
+/* start reCAPTCHA styles */
+/* start font awesome styles */
+
+/*FOOTER BUTTONS STYLES */
+.fa {
+	padding: 10px;
+	width: 15px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+	border-radius: 20px;
+}
+
+.fa:hover {
+	opacity: 0.7;
+}
+
+.fa-facebook, .fa-rss, .fa-twitter, .fa-linkedin{
+	background: #888;
+	color: white;
+}
+
+/* writes to small text above reCAPTCHA upon failure */
+	.dateFeedback{
+		font-style:italic;
+		font-size:70%;
+		font-weight:bold;
+		color:#f00;
+	}
+
+	.policies p{
+		display: inline-block;
+		padding-left: 1%;
+		padding-top:1%;
+	}
+
+	.policies a{
+		text-decoration: none;
+		font-size: .75em;
+	}
+	input:required {
+	  border: 1px solid red;
+	}
+
+	input:optional, textarea:optional {
+	  background-color:#f1f1f1;
+	  border:1px solid #ccc;
+	}
+
+	input[type="submit"], input[type="button"] {
+	  background-color: #fff;
+	  border-radius: 4px;
+	  border: solid 1px #ccc;
+	  padding: 0.3em 0.5em;
+	}
+
+	fieldset {
+	  border: 1px solid #ccc;
+	  max-width: 350px;
+	}
+
+	legend {
+	  margin-left: 0.5em;
+	  margin-bottom: 0.5em;
+	  padding: 0.2em 0.5em;
+	  border-left: 1px solid #ccc;
+	  border-right: 1px solid #ccc;
+	}
+	
+	form div{
+		margin-bottom:2%;
+		}
+	
+	/* end reCAPTCHA styles */
+/*FOOTER END */
+
+/* --------- RESPONSIVE CSS ------------ */
+
+/* -----DESKTOP CSS BEGIN------*/
+
+@media all and (min-width:1280px){
+body{
+	width:100%;
+	margin:auto;
+}
+
+/* OWL LOGO DESKTOP STYLE */
+
+.owl{
+	float: left;
+	height: 59px;
+	background-color: #00b4f5;
+	padding-left: .75%;
+}
+
+.logo_wrapper{
+    float: left;
+    height:59px;
+    padding-left: .75%;
+    background-color: #00b4f5;
+}
+
+.logo{
+    float: left;
+    background-color: #00b4f5;
+    padding-left: .75%;
+    font-size: 2em;
+    font-family: 'CaviarDreams';
+    color:rgb(17,27,118);
+    margin-top: 10px;
+}
+
+
+ul.topnav li a {
+
+	display: inline-block;
+	color: rgb(17,27,118);
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	transition: 0.3s;
+	font-size: 1.5em;
+}
+
+.beta_button_desktop{
+	margin-left: 2%;
+	font-size: 1.5em;
+	padding: 0 5px;
+	border-radius: 5px;
+	font-family: 'CaviarDreams';
+}
+
+.beta_button_phone{
+	display: none;
+}
+
+article{
+	margin: 0 auto;
+	padding-left:2.5%;
+	width:60%;
+}
+
+/*DESKTOP PRODUCTS PAGE CSS BEGIN*/
+
+.product-container {
+	float:left;
+	text-align: left;
+	width:auto;
+	overflow:auto;
+	padding: 2em 0;
+}
+.image-container{
+	width:30%;
+	float:left;
+}
+.app-icon img{
+	display:block;
+	width:100%;
+	height:auto;
+}
+.storebadge img{
+	max-width:50%;
+	height:auto;
+	float:left;
+}
+.description p{
+	float:left;
+	margin-left: 10%;
+	width: 60%;
+	color: #888;
+}
+.description h1{
+	text-align:left;
+	float:left;
+	margin-left:10%;
+}
+/*END DESKTOP PRODUCTS PAGE CSS*/
+
+/* DESKTOP ASIDE CSS */
+
+.twocol{
+	margin: 0 auto;
+	padding-left:2.5%;
+	width:60%;
+	float:left;
+}
+
+aside.twocol{
+	margin:0 auto;
+	padding-right:2.5%;
+	float:right;
+	width:26%;
+}
+
+aside p{
+	color:#888;
+	text-align: justify;
+}
+
+/* DESKTOP FOOTER CSS */
+footer{
+	font-size:1em;
+	padding:25px 0 15px 0;
+}
+
+.links p{
+	display: inline-block;
+}
+
+}
+/*----- DESKTOP CSS END ----- */
+
+/* ----- LAPTOP CSS BEGIN ----- */
+
+@media all and (min-width:1000px) and (max-width:1279px){
+	body{
+		width:100%;
+		margin:auto;
+	}
+
+/*LAPTOP OWL LOGO CSS */
+
+    .owl{
+        float: left;
+        height: 48.5px;
+        background-color: #00b4f5;
+        padding-left: .75%;
+    }
+
+    .logo_wrapper{
+        float: left;
+        height:48.5px;
+        padding-left: .75%;
+        background-color: #00b4f5;
+    }
+
+    .logo{
+        float: left;
+        background-color: #00b4f5;
+        padding-left: .75%;
+        font-size: 1.5em;
+        font-family: 'CaviarDreams';
+        color:rgb(17,27,118);
+        margin-top: 9px;
+    }
+
+	ul.topnav li a {
+
+		display: inline-block;
+		color: rgb(17,27,118);
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		transition: 0.3s;
+		font-size: 1em;
+	}
+
+	.spacer{
+		height:50px;
+	}
+
+	.beta_button_desktop{
+		margin-left: 2%;
+		font-size: 1em;
+		padding: 0 15px;
+		border-radius: 5px;
+		font-family: 'CaviarDreams';
+	}
+
+	.beta_button_phone{
+		display: none;
+	}
+
+	article{
+        margin: 0 auto;
+		padding-left:2.5%;
+		width:60%;
+	}
+
+	/*PRODUCTS PAGE CSS FOR LAPTOP*/
+
+	.product-container {
+		float:left;
+		text-align: left;
+		width:auto;
+		overflow:auto;
+		padding: 2em 0;
+	}
+	.image-container{
+		width:30%;
+		float:left;
+	}
+	.app-icon img{
+		display:block;
+		width:100%;
+		height:auto;
+	}
+	.storebadge img{
+		max-width:50%;
+		height:auto;
+		float:left;
+	}
+	.description p{
+		float:left;
+		margin-left: 10%;
+		width: 60%;
+		color: #888;
+	}
+	.description h1{
+		text-align:left;
+		float:left;
+		margin-left:10%;
+	}
+	/*END PRODUCTS PAGE LAPTOP CSS*/
+
+	/*LAPTOP CSS FOR ASIDE */
+
+	.twocol{
+		margin: 0 auto;
+		padding-left:2.5%;
+		width:60%;
+		float:left;
+	}
+
+	aside.twocol{
+		margin:0 auto;
+		padding-right:2.5%;
+		float:right;
+		width:26%;
+	}
+
+	aside p{
+		color:#888;
+		text-align: justify;
+	}
+
+	/* FOOTER CSS FOR LAPTOP */
+	
+	footer{
+		font-size:1em;
+		padding:25px 0 15px 0;
+	}
+
+	.links p{
+		display: inline-block;
+	}
+}
+
+
+/* ---- TABLET CSS BEGIN ---- */
+@media all and (min-width:500px) and (max-width:999px){
+	body{
+		width:100%;
+		background-color:#fff;
+	}
+
+	ul.topnav li.current{
+		background-color:#00b4f5;
+		margin-top: 1%;
+	}
+
+	ul.topnav li {
+		display: inline-block;
+		margin-left: 2.5%;
+		background-color: #00b4f5;
+		margin-top: 1%;
+	}
+
+	ul.topnav li a {
+		display: inline-block;
+		color:rgb(17,27,118);
+		text-align: center;
+		padding: 11px 16px;
+		text-decoration: none;
+		transition: 0.3s;
+		font-size: 1.5em;
+	}
+
+	/* FLEX SLIDER WILL NOT DISPLAY ON TABLET */
+	.flexslider{
+		display: none;
+	}
+
+	/* OWL LOGO CSS FOR TABLET */
+	.owl{
+		float: left;
+		height: 56px;
+		background-color: #00b4f5;
+		display: inline-block;
+		padding-left: 0;
+	}
+
+	.owl img{
+		height:100%;
+	}
+
+	.logo_wrapper{
+		float: left;
+		height:59px;
+		padding-left: .75%;
+		background-color: #00b4f5;
+	}
+
+	.logo{
+		float: left;
+		background-color: #00b4f5;
+		padding-left: .75%;
+		font-size: 2em;
+		font-family: 'CaviarDreams';
+		color:rgb(17,27,118);
+		margin-top: 10px;
+	}
+
+	/* BETA BUTTON CSS FOR TABLET */
+	.button{
+		text-align: center;
+	}
+
+	.beta_button_desktop{
+		display: none;
+	}
+
+	.beta_button_phone{
+		font-size: 1.5em;
+		padding: 0 15px;
+		border-radius: 5px;
+		font-family: 'CaviarDreams';
+	}
+
+	/* ARTICLE/ASIDE CSS FOR TABLET */
+	article, aside{
+		padding: .5em;
+		float:none;
+		width:90%;
+		text-align: justify;
+		margin:auto;
+	}
+
+	aside h2{
+		color: #888;
+		text-align:center;
+		padding-top:1em;
+		padding-bottom:.5em;
+	}
+
+	aside p{
+		color: #888;
+		font-family: Lucida Sans Unicode;
+		line-height:1.5em;
+		margin: 1em 0;
+	}
+
+	/* PRODUCTS PAGE CSS FOR TABLET */
+	.product-container {
+		float:left;
+		text-align: left;
+		width:auto;
+		overflow:auto;
+		padding: 2em 0;
+	}
+	.image-container{
+		width:30%;
+		float:left;
+	}
+	.app-icon img{
+		display:block;
+		width:100%;
+		height:auto;
+	}
+	.storebadge img{
+		max-width:50%;
+		height:auto;
+		float:left;
+	}
+	.description p{
+		float:left;
+		margin-left: 10%;
+		width: 60%;
+		color: #888;
+	}
+	.description h1{
+		text-align:left;
+		float:left;
+		margin-left:10%;
+	}
+
+	/*END PRODUCTS PAGE CSS FOR TABLET*/
+
+	.links p{
+		display: inline-block;
+	}
+
+	.policies{
+		clear:both;
+	}
+
+	.links p{
+		display: inline-block;
+	}
+
+}
+
+/* ----- MOBILE CSS BEGIN ------*/
+@media all and (max-width:499px){
+	body{
+        width:100%;
+		background-color:#fff;
+	}
+
+	/* NAV CSS FOR MOBILE */
+
+	ul.topnav li.current{
+		background-color:#00b4f5;
+		margin-top: 1%;
+	}
+
+	ul.topnav li {
+		display: inline-block;
+		margin-left: 2.5%;
+		background-color: #00b4f5;
+		margin-top: 1%;
+	}
+
+	ul.topnav li a {
+		display: inline-block;
+		color:rgb(17,27,118);
+		text-align: center;
+		padding: 11px 16px;
+		text-decoration: none;
+		transition: 0.3s;
+		font-size: 1.5em;
+	}
+
+	.blog-post img{
+		height: auto;
+		max-width: 100%;
+
+	}
+
+	/* FLEX SLIDER SET TO NOT DISPLAY ON MOBILE */
+	.flexslider{
+		display: none;
+	}
+
+	/* OWL LOGO CSS FOR MOBILE */
+	.owl{
+		float: left;
+		height: 56px;
+		background-color: #00b4f5;
+		padding-left: .75%;
+	}
+
+	.logo{
+		display:none;
+	}
+
+	.owl{
+		display: inline-block;
+		padding-left: 0;
+	}
+
+	.owl img{
+		height:100%;
+	}
+
+	/*BETA BUTTON MOBILE CSS */
+
+	.button{
+		text-align: center;
+	}
+
+	.beta_button_desktop{
+		display: none;
+	}
+
+	.beta_button_phone{
+		font-size: 1.5em;
+		padding: 0 15px;
+		border-radius: 5px;
+		font-family: 'CaviarDreams';
+	}
+
+	/* ARTICLE/ASIDE CSS FOR MOBILE */
+	article, aside{
+        padding: .5em;
+		float:none;
+		width:90%;
+		text-align: justify;
+		margin:auto;
+	}
+	
+	article h3{
+		text-align: center;
+	}
+
+	aside h2{
+		color: #888;
+		text-align:center;
+		padding-top:1em;
+		padding-bottom:.5em;
+	}
+
+	aside p{
+		color: #888;
+		font-family: Lucida Sans Unicode;
+		line-height:1.5em;
+		margin: 1em 0;
+	}
+
+	/*START PRODUCTS PAGE CSS FOR MOBILE*/
+
+	.product-container {
+		float:left;
+		text-align: left;
+		width:auto;
+		overflow:auto;
+		padding: 2em 0;
+	}
+	.image-container{
+		width:100%;
+		float:left;
+	}
+	.app-icon img{
+		display:block;
+		width:100%;
+		height:auto;
+	}
+	.storebadge img{
+		max-width:50%;
+		height:auto;
+		float:left;
+		margin-top:1em;
+		padding-bottom: 1em;
+	}
+
+	.description p{
+		float:left;
+		color: #888;
+	}
+
+	/*END PRODUCTS PAGE CSS FOR MOBILE*/
+
+	/*FOOTER CSS FOR MOBILE */
+
+	.footer_follow{
+		display:none;
+	}
+
+	.links h3{
+		display:none;
+	}
+
+	.links p{
+		display: inline-block;
+	}
+
+	.policies{
+		clear:both;
+	}
+
+	.policies p{
+		padding: 20px 5px;
+		font-size: .7em;
+	}
+}
+/* ----- MOBILE CSS END ------- /*

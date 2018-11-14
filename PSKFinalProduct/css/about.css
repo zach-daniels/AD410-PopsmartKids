@@ -1,0 +1,66 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.about_h1 {
+    padding-top:12px;
+    padding-bottom:12px;
+}
+
+.about_h2 {
+    text-align: center;
+    padding-top: .5em;
+    padding-bottom: 1em;
+
+}
+.about_column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+    .about_column {
+        width: 100%;
+        display: block;
+    }
+}
+
+.about_card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.about_container {
+    padding: 0 16px;
+}
+
+.about_container::after, .about_row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.about_title {
+    color: grey;
+}
+
+.about_button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.about_button:hover {
+    background-color: #555;
+}
